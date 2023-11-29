@@ -47,3 +47,40 @@ h2{
 p{
     font-size: calc(1rem + 1vw);
 }
+
+
+
+@media screen and (min-width: 641px) and (max-width: 1007px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width: 1008px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer{
+        background-color: black;
+        padding: 5px;
+        width: 80vw;
+        margin: auto;
+    }
+
+    footer > a{
+        color: white;
+        font-style: bold;
+    }
+}
