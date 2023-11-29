@@ -1,0 +1,14 @@
+header, footer{
+    text-align: center;
+}
+h1{
+    font-size: calc(1,5rem + 3vw);
+}
+
+h2{
+    font-size: calc(1rem + 2vw);
+}
+
+p{
+    font-size: calc(1rem + 1vw);
+}
